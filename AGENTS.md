@@ -1,5 +1,5 @@
 # hermes-triage
-Read-only CLI that snapshots the open Hermes Agent issue queue and writes a Markdown queue-health report (response times, age, likely duplicates, suggested labels, repro candidates). Live: https://hermes-triage.technoir.cloud
+Read-only CLI that snapshots the open Hermes Agent issue queue and writes a Markdown queue-health report (response times, age, likely duplicates, suggested labels, repro candidates). Archived 2026-10-19; not deployed.
 
 ## Commands
 - Check (before every commit and deploy): `./scripts/check.sh`

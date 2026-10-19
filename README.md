@@ -1,3 +1,5 @@
+> **Archived 2026-10-19.** One run, kept for the record; not maintained or deployed.
+
 # hermes-triage
 
 A read-only triage tool for the [Hermes Agent](https://github.com/NousResearch/hermes-agent) issue queue. It
@@ -5,7 +7,7 @@ takes a snapshot of every open issue and writes a Markdown report of the queue's
 how long, which issues are likely duplicates, which unlabelled issues belong where, and which bugs one person can
 reproduce today.
 
-**Latest report:** https://hermes-triage.technoir.cloud · [reports/](reports/)
+**Report:** [reports/2026-10-19.md](reports/2026-10-19.md), the only run. The live page is retired.
 
 Unofficial. Not affiliated with or endorsed by Nous Research. It never writes to GitHub: no labels, no comments,
 no closes. It suggests, and a person decides.
@@ -55,9 +57,9 @@ so a maintainer can see why without reading the code.
 ./scripts/check.sh      # compile + unit tests; CI runs the same
 ```
 
-## Authorship
+## How this was made
 
-I specified this tool, set its rules (read-only, the repo's own labels, explainable suggestions, measured
-agreement) and reviewed its output against the live queue. An agent wrote most of the code.
+I'm a vibe coder: I decided what to build, set the rules (read-only, the repo's own labels, explainable
+suggestions, measured agreement) and checked the output against the live queue. An AI coding agent wrote the code.
 
 MIT licence.
